@@ -34,6 +34,7 @@ public class ListViewHolder {
             }
         });
     }
+    //Tên file đã sang xanh, tức là file đó e có chỉnh sửa
     public  void setData(Tree tree)
     {
         mId.setText(tree.getId()+"");
